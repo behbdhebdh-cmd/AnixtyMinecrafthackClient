@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "package": "com.horror.client.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BackgroundRendererMixin",
+    "BlockMixin",
+    "CameraMixin",
+    "CactusBlockMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "EntityAccessor",
+    "EntityMixin",
+    "GameRendererMixin",
+    "InGameHudMixin",
+    "InGameOverlayRendererMixin",
+    "KeyBindingAccessor",
+    "MinecraftClientAccessor",
+    "PlayerEntityMixin",
+    "PlayerMoveC2SPacketMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

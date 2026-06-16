@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "horror",
+  "version": "${version}",
+  "name": "Anixty Client",
+  "description": "Anixty - singleplayer training client for Minecraft 1.20.1 (Fabric).",
+  "authors": [
+    "Ben"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/horror/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.horror.client.HorrorClient"
+    ]
+  },
+  "mixins": [
+    "horror.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
